@@ -1,20 +1,51 @@
 const posts = [
   {
-  title: "Site WordPress institucional",
-  date: "23/04/2026",
-  text: "Criação de site institucional com foco em conversão e SEO básico.",
-  image: "img/site-vila.jpg"
-}
-  { title: "Site WordPress institucional", text: "Criação de site institucional com foco em conversão e SEO básico." },
-  { title: "Recuperação de site hackeado", text: "Limpeza completa de malware e restauração do WordPress." },
-  { title: "Landing page de alta conversão", text: "Página otimizada para campanha de tráfego pago." },
-  { title: "Otimização de velocidade", text: "Redução de 5s para 1.2s no carregamento do site." },
-  { title: "Suporte técnico remoto", text: "Correção de erros e manutenção em ambiente Windows." },
-  { title: "Site institucional moderno", text: "Layout responsivo com foco em mobile-first." },
-  { title: "SEO básico aplicado", text: "Estruturação de headings e meta tags para Google." },
-  { title: "Migração de hospedagem", text: "Transferência segura de site sem downtime." },
-  { title: "Correção de formulário", text: "Integração de envio funcional via email." },
-  { title: "Projeto landing ads", text: "Página otimizada para campanhas do Instagram Ads." }
+    title: "Site WordPress institucional",
+    date: "23/04/2026",
+    text: "Criação de site institucional com foco em conversão e SEO básico.",
+    image: "img/site-vila.jpg"
+  },
+  {
+    title: "Site WordPress institucional",
+    date: "23/04/2026",
+    text: "Criação de site institucional com foco em conversão e SEO básico."
+  },
+  {
+    title: "Recuperação de site hackeado",
+    text: "Limpeza completa de malware e restauração do WordPress."
+  },
+  {
+    title: "Landing page de alta conversão",
+    text: "Página otimizada para campanha de tráfego pago."
+  },
+  {
+    title: "Otimização de velocidade",
+    text: "Redução de 5s para 1.2s no carregamento do site."
+  },
+  {
+    title: "Suporte técnico remoto",
+    text: "Correção de erros e manutenção em ambiente Windows."
+  },
+  {
+    title: "Site institucional moderno",
+    text: "Layout responsivo com foco em mobile-first."
+  },
+  {
+    title: "SEO básico aplicado",
+    text: "Estruturação de headings e meta tags para Google."
+  },
+  {
+    title: "Migração de hospedagem",
+    text: "Transferência segura de site sem downtime."
+  },
+  {
+    title: "Correção de formulário",
+    text: "Integração de envio funcional via email."
+  },
+  {
+    title: "Projeto landing ads",
+    text: "Página otimizada para campanhas do Instagram Ads."
+  }
 ];
 
 const postsPerPage = 3;
@@ -31,12 +62,12 @@ function renderPosts() {
 
   paginatedPosts.forEach(post => {
     postsContainer.innerHTML += `
-      <div class="post">
-  <img src="${post.image}" class="post-img">
-  <small>${post.date}</small>
-  <h2>${post.title}</h2>
-  <p>${post.text}</p>
-</div>
+  <div class="post">
+      ${post.image ? `<img src="${post.image}" class="post-img">` : ""}
+      ${post.date ? `<small>${post.date}</small>` : ""}
+    <h2>${post.title}</h2>
+    <p>${post.text}</p>
+  </div>
     `;
   });
 
