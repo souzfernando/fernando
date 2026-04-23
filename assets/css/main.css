@@ -1079,3 +1079,8 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+
+		.logo {
+    width: 120px; /* ajusta como quiser */
+    margin-bottom: 15px;
+}
