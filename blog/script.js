@@ -1,5 +1,5 @@
 const posts = [
-  { title: "Site WordPress para cliente X", text: "Criação de site institucional com foco em conversão e SEO básico." },
+  { title: "Site WordPress institucional", text: "Criação de site institucional com foco em conversão e SEO básico." },
   { title: "Recuperação de site hackeado", text: "Limpeza completa de malware e restauração do WordPress." },
   { title: "Landing page de alta conversão", text: "Página otimizada para campanha de tráfego pago." },
   { title: "Otimização de velocidade", text: "Redução de 5s para 1.2s no carregamento do site." },
