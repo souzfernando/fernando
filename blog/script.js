@@ -1,4 +1,10 @@
 const posts = [
+  {
+  title: "Site WordPress institucional",
+  date: "23/04/2026",
+  text: "Criação de site institucional com foco em conversão e SEO básico.",
+  image: "img/site-vila.jpg"
+}
   { title: "Site WordPress institucional", text: "Criação de site institucional com foco em conversão e SEO básico." },
   { title: "Recuperação de site hackeado", text: "Limpeza completa de malware e restauração do WordPress." },
   { title: "Landing page de alta conversão", text: "Página otimizada para campanha de tráfego pago." },
@@ -26,9 +32,11 @@ function renderPosts() {
   paginatedPosts.forEach(post => {
     postsContainer.innerHTML += `
       <div class="post">
-        <h2>${post.title}</h2>
-        <p>${post.text}</p>
-      </div>
+  <img src="${post.image}" class="post-img">
+  <small>${post.date}</small>
+  <h2>${post.title}</h2>
+  <p>${post.text}</p>
+</div>
     `;
   });
 
