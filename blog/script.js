@@ -63,11 +63,14 @@ function renderPosts() {
   paginatedPosts.forEach(post => {
     postsContainer.innerHTML += `
   <div class="post">
-      ${post.image ? `<img src="${post.image}" class="post-img">` : ""}
-      ${post.date ? `<small>${post.date}</small>` : ""}
+  ${post.image ? `<img src="${post.image}" class="post-img">` : ""}
+
+  <div class="post-content">
+    ${post.date ? `<small>${post.date}</small>` : ""}
     <h2>${post.title}</h2>
     <p>${post.text}</p>
   </div>
+</div>
     `;
   });
 
