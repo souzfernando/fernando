@@ -68,3 +68,36 @@ body {
 .logo-link {
   display: inline-block;
 }
+
+.menu {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.menu a:hover {
+  background: #00ff99;
+  color: #000;
+  border: 1px solid #00ff99;
+  transform: translateY(-2px);
+}
+
+/* destaque opcional para página ativa */
+.menu a.active {
+  background: #222;
+  border: 1px solid #00ff99;
+  color: #00ff99;
+}

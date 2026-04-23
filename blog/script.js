@@ -55,4 +55,8 @@ function changePage(page) {
   renderPosts();
 }
 
+window.onload = function() {
+  document.body.classList.add('loaded');
+};
+
 renderPosts();
