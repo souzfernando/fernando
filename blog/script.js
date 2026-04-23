@@ -55,8 +55,7 @@ function changePage(page) {
   renderPosts();
 }
 
-window.onload = function() {
+document.addEventListener("DOMContentLoaded", function () {
   document.body.classList.add('loaded');
-};
-
-renderPosts();
+  renderPosts();
+});
