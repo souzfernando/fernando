@@ -2,7 +2,7 @@ const posts = [
 {
   title: "Site Vila Vicentina em Brotas",
   date: "05/02/2025",
-  category: "sites", "wordpress",
+  category: ["sites", "wordpress"],
   text: `Criação de site institucional com foco em conversão, SEO básico e organização de conteúdo.<br><br>
 O projeto foi desenvolvido para manter o portal da transparência da instituição de forma clara e estruturada.<br><br>
 O sistema também permite que a própria equipe realize o upload de arquivos em PDF diretamente no site.<br><br>
@@ -13,61 +13,61 @@ Este projeto foi desenvolvido como trabalho voluntário.`,
   {
     title: "Site WordPress institucional",
     date: "22/04/2026",
-    category: "wordpress",
+    category: ["wordpress"]
     text: "Criação de site institucional com foco em conversão e SEO básico."
   },
   {
     title: "Recuperação de site hackeado",
     date: "23/04/2026",
-    category: "suporte",
+    category: ["suporte"]
     text: "Limpeza completa de malware e restauração do WordPress."
   },
   {
     title: "Landing page de alta conversão",
     date: "21/04/2026",
-    category: "landing",
+    category: ["landing"]
     text: "Página otimizada para campanha de tráfego pago."
   },
   {
     title: "Otimização de velocidade",
     date: "20/04/2026",
-    category: "seo",
+    category: ["wordpress"]
     text: "Redução de 5s para 1.2s no carregamento do site."
   },
   {
     title: "Suporte técnico remoto",
     date: "19/04/2026",
-    category: "suporte",
+    category: ["suporte"]
     text: "Correção de erros e manutenção em ambiente Windows."
   },
   {
     title: "Site institucional moderno",
     date: "18/04/2026",
-    category: "wordpress",
+    category: ["wordpress"]
     text: "Layout responsivo com foco em mobile-first."
   },
   {
     title: "SEO básico aplicado",
     date: "17/04/2026",
-    category: "seo",
+    category: ["wordpress"]
     text: "Estruturação de headings e meta tags para Google."
   },
   {
     title: "Migração de hospedagem",
     date: "16/04/2026",
-    category: "suporte",
+    category: ["suporte"]
     text: "Transferência segura de site sem downtime."
   },
   {
     title: "Correção de formulário",
     date: "15/04/2026",
-    category: "suporte",
+    category: ["suporte"]
     text: "Integração de envio funcional via email."
   },
   {
     title: "Projeto landing ads",
     date: "14/04/2026",
-    category: "landing",
+    category: ["landing"]
     text: "Página otimizada para campanhas do Instagram Ads."
   }
 ];
