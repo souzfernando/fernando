@@ -3,15 +3,11 @@ const posts = [
   title: "Site Vila Vicentina em Brotas",
   date: "05/02/2025",
   category: "sites",
-  text: `Criação de site institucional com foco em conversão, SEO básico e organização de conteúdo.
-
-O projeto foi desenvolvido para manter o portal da transparência da instituição de forma clara e estruturada.
-
-O sistema também permite que a própria equipe realize o upload de arquivos em PDF diretamente no site.
-
-Este projeto foi desenvolvido como trabalho voluntário.
-
-<a href="https://vilavicentinabrotas.com.br/" target="_blank">Conheça</a>`,
+  text: `Criação de site institucional com foco em conversão, SEO básico e organização de conteúdo.<b><b>
+O projeto foi desenvolvido para manter o portal da transparência da instituição de forma clara e estruturada.<b><b>
+O sistema também permite que a própria equipe realize o upload de arquivos em PDF diretamente no site.<b><b>
+Este projeto foi desenvolvido como trabalho voluntário.<b><b>
+<a href="https://vilavicentinabrotas.com.br/" target="_blank" class="btn-link">Conheça</a>`,
   image: "img/site-vila.jpg"
 },
   {
