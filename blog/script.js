@@ -19,7 +19,7 @@ As páginas foram desenvolvidas com versões em português e inglês, garantindo
 <br><br>
 Também foram aplicadas customizações em HTML e CSS para adaptação visual e melhor experiência do usuário, além de ajustes para responsividade em dispositivos móveis.
 `,
-  link: "*",
+  link: "https://produtoresdefloresta.com.br/",
   image: "img/site-floresta.jpg"
 },
   {
