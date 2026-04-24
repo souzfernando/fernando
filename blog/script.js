@@ -3,7 +3,7 @@ const posts = [
     title: "Site WordPress institucional",
     date: "23/04/2026",
     category: "wordpress",
-    text: "Criação de site institucional com foco em conversão e SEO básico. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    text: "Criação de site institucional com foco em conversão e SEO básico. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     image: "img/site-vila.jpg"
   },
   {
@@ -63,7 +63,35 @@ const postsPerPage = 3;
 
 let currentPage = 1;
 let selectedCategory = "all";
-let currentPost = null;
+let sortOrder = "new";
+let currentPostIndex = null;
+
+/* =========================
+   DATA HELP
+========================= */
+function parseDateBR(dateStr) {
+  if (!dateStr) return null;
+
+  const [day, month, year] = dateStr.split("/");
+  return new Date(`${year}-${month}-${day}`);
+}
+
+/* =========================
+   SORT POSTS
+========================= */
+function getSortedPosts() {
+  return [...posts].sort((a, b) => {
+    const dateA = parseDateBR(a.date);
+    const dateB = parseDateBR(b.date);
+
+    if (!dateA) return 1;
+    if (!dateB) return -1;
+
+    return sortOrder === "new"
+      ? dateB - dateA
+      : dateA - dateB;
+  });
+}
 
 /* =========================
    RENDER POSTS
@@ -71,9 +99,11 @@ let currentPost = null;
 function renderPosts() {
   const container = document.getElementById("posts");
 
+  const sorted = getSortedPosts();
+
   const filtered = selectedCategory === "all"
-    ? posts
-    : posts.filter(p => p.category === selectedCategory);
+    ? sorted
+    : sorted.filter(p => p.category === selectedCategory);
 
   const start = (currentPage - 1) * postsPerPage;
   const end = start + postsPerPage;
@@ -82,8 +112,10 @@ function renderPosts() {
 
   container.innerHTML = "";
 
-  paginated.forEach((post, index) => {
-    const realIndex = posts.indexOf(post);
+  paginated.forEach((post) => {
+    const realIndex = posts.findIndex(p =>
+      p.title === post.title && p.date === post.date
+    );
 
     container.innerHTML += `
       <div class="post">
@@ -106,7 +138,7 @@ function renderPosts() {
 }
 
 /* =========================
-   PAGINATION << < 1 2 3 > >>
+   PAGINATION
 ========================= */
 function renderPagination(totalItems) {
   const totalPages = Math.ceil(totalItems / postsPerPage);
@@ -145,16 +177,17 @@ function changePage(page) {
    MODAL
 ========================= */
 function openModal(index) {
-  currentPost = posts[index];
+  currentPostIndex = index;
+  const post = posts[index];
 
   const modal = document.getElementById("modal");
   const content = document.getElementById("modalContent");
 
   content.innerHTML = `
-    ${currentPost.image ? `<img src="${currentPost.image}" class="modal-img">` : ""}
-    <h2>${currentPost.title}</h2>
-    ${currentPost.date ? `<small>${currentPost.date}</small>` : ""}
-    <p>${currentPost.text}</p>
+    ${post.image ? `<img src="${post.image}" class="modal-img">` : ""}
+    <h2>${post.title}</h2>
+    ${post.date ? `<small>${post.date}</small>` : ""}
+    <p>${post.text}</p>
   `;
 
   modal.classList.add("active");
@@ -169,10 +202,23 @@ function closeModal() {
 ========================= */
 document.addEventListener("DOMContentLoaded", () => {
   const filter = document.getElementById("categoryFilter");
+  const sortBtn = document.getElementById("sortBtn");
 
   if (filter) {
     filter.addEventListener("change", (e) => {
       selectedCategory = e.target.value;
+      currentPage = 1;
+      renderPosts();
+    });
+  }
+
+  if (sortBtn) {
+    sortBtn.addEventListener("click", () => {
+      sortOrder = sortOrder === "new" ? "old" : "new";
+
+      sortBtn.textContent =
+        sortOrder === "new" ? "Mais novos ↓" : "Mais antigos ↑";
+
       currentPage = 1;
       renderPosts();
     });
