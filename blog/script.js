@@ -14,7 +14,7 @@ Este projeto foi desenvolvido como trabalho voluntário.`,
   title: "Landing Page Bilíngue – Projeto Produtores de Floresta",
   date: "20/04/2026",
   category: ["landing", "wordpress"],
-  text: `Projeto desenvolvido como prestação de serviço terceirizado<br><br>Desenvolvimento de duas landing pages institucionais (português e inglês) para o Projeto Produtores de Floresta, iniciativa voltada à restauração de áreas degradadas nos biomas da Mata Atlântica e Cerrado.<br><br>
+  text: `<p class="note">⚠️ Execução técnica como serviço terceirizado</p><br><br>Desenvolvimento de duas landing pages institucionais (português e inglês) para o Projeto Produtores de Floresta, iniciativa voltada à restauração de áreas degradadas nos biomas da Mata Atlântica e Cerrado.<br><br>
 As páginas foram desenvolvidas com versões em português e inglês, garantindo consistência de conteúdo e navegação para diferentes públicos. O projeto inclui formulários personalizados em ambas as versões, com campos estruturados e suporte para upload de arquivos.
 <br><br>
 Também foram aplicadas customizações em HTML e CSS para adaptação visual e melhor experiência do usuário, além de ajustes para responsividade em dispositivos móveis.

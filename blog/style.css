@@ -247,7 +247,15 @@ body {
   transform: translateY(-1px);
 }
 
-
+.note {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  background: #1a1a1a;
+  border: 1px solid #7b50aa;
+  color: #fff;
+  font-size: 14px;
+}
 
 /* ================= MOBILE ================= */
 @media (max-width: 600px) {
