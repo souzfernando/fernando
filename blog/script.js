@@ -1,17 +1,9 @@
 const posts = [
-{
+  {
   title: "Site Vila Vicentina em Brotas",
   date: "05/02/2025",
   category: "sites",
-  text: `Criação de site institucional com foco em conversão, SEO básico e organização de conteúdo.
-
-O projeto foi desenvolvido para manter o portal da transparência da instituição de forma clara e estruturada.
-
-O sistema também permite que a própria equipe realize o upload de arquivos em PDF diretamente no site.
-
-Este projeto foi desenvolvido como trabalho voluntário.
-
-<a href="https://vilavicentinabrotas.com.br/" target="_blank">Conheça</a>`,
+  text: "Criação de site institucional com foco em conversão, SEO básico e organização de conteúdo. O projeto foi desenvolvido para manter o portal da transparência da instituição de forma clara e estruturada, facilitando o acesso às informações públicas.<br><br>O sistema também permite que a própria equipe realize o upload de arquivos em PDF diretamente no site, garantindo autonomia na atualização dos documentos.<br><br>Este projeto foi desenvolvido como trabalho voluntário para a Vila Vicentina de Brotas, com o objetivo de melhorar a comunicação e a transparência das informações da instituição.",
   image: "img/site-vila.jpg"
 }
   {
@@ -105,8 +97,8 @@ function getSortedPosts() {
     if (!dateB) return -1;
 
     return sortOrder === "new"
-    ? dateB - dateA
-    : dateA - dateB;
+      ? dateB - dateA
+      : dateA - dateB;
   });
 }
 
@@ -119,8 +111,8 @@ function renderPosts() {
   const sorted = getSortedPosts();
 
   const filtered = selectedCategory === "all"
-  ? sorted
-  : sorted.filter(p => p.category === selectedCategory);
+    ? sorted
+    : sorted.filter(p => p.category === selectedCategory);
 
   const start = (currentPage - 1) * postsPerPage;
   const end = start + postsPerPage;
@@ -132,14 +124,14 @@ function renderPosts() {
   paginated.forEach((post) => {
     const realIndex = posts.findIndex(p =>
       p.title === post.title && p.date === post.date
-      );
+    );
 
     container.innerHTML += `
       <div class="post">
-      ${post.image ? `<img src="${post.image}" class="post-img">` : ""}
+        ${post.image ? `<img src="${post.image}" class="post-img">` : ""}
 
         <div class="post-content">
-      ${post.date ? `<small>${post.date}</small>` : ""}
+          ${post.date ? `<small>${post.date}</small>` : ""}
           <h2>${post.title}</h2>
           <p>${post.text}</p>
 
@@ -234,7 +226,7 @@ document.addEventListener("DOMContentLoaded", () => {
       sortOrder = sortOrder === "new" ? "old" : "new";
 
       sortBtn.textContent =
-      sortOrder === "new" ? "Mais novos ↓" : "Mais antigos ↑";
+        sortOrder === "new" ? "Mais novos ↓" : "Mais antigos ↑";
 
       currentPage = 1;
       renderPosts();
