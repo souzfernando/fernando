@@ -136,7 +136,7 @@ body {
   line-height: 1.4;
 
   display: -webkit-box;
-  -webkit-line-clamp: 4; /* quantidade de linhas visíveis */
+  -webkit-line-clamp: 3; /* quantidade de linhas visíveis */
   -webkit-box-orient: vertical;
 
   overflow: hidden;
