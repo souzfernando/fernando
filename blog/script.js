@@ -20,7 +20,7 @@ As páginas foram desenvolvidas com versões em português e inglês, garantindo
 Também foram aplicadas customizações em HTML e CSS para adaptação visual e melhor experiência do usuário, além de ajustes para responsividade em dispositivos móveis.
 `,
   link: "*",
-  image: "img/site-vila.jpg"
+  image: "img/site-floresta.jpg"
 },
   {
     title: "Workstation de Alta Performance para Edição e Streaming",
