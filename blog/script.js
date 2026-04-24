@@ -15,9 +15,10 @@ Este projeto foi desenvolvido como trabalho voluntário.`,
   date: "20/04/2026",
   category: ["landing", "wordpress"],
   text: `Projeto desenvolvido como prestação de serviço terceirizado<br><br>Desenvolvimento de duas landing pages institucionais (português e inglês) para o Projeto Produtores de Floresta, iniciativa voltada à restauração de áreas degradadas nos biomas da Mata Atlântica e Cerrado.<br><br>
-O projeto contempla a recuperação inicial de 4.000 hectares, com o plantio de 6 milhões de árvores entre 2026 e 2030, com possibilidade de expansão até 2032. A iniciativa segue o padrão internacional VCS (Verified Carbon Standard), com foco em propriedades privadas, priorizando Reservas Legais e Áreas de Preservação Permanente.<br><br>
-As páginas foram estruturadas com foco em clareza institucional, navegação simples e adaptação para público internacional, garantindo consistência entre os idiomas e boa experiência em dispositivos móveis.<br><br>
-Projeto desenvolvido como prestação de serviço terceirizado.`,
+As páginas foram desenvolvidas com versões em português e inglês, garantindo consistência de conteúdo e navegação para diferentes públicos. O projeto inclui formulários personalizados em ambas as versões, com campos estruturados e suporte para upload de arquivos.
+<br><br>
+Também foram aplicadas customizações em HTML e CSS para adaptação visual e melhor experiência do usuário, além de ajustes para responsividade em dispositivos móveis.
+`,
   link: "*",
   image: "img/site-vila.jpg"
 },
