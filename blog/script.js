@@ -21,6 +21,16 @@ O resultado final é uma máquina equilibrada, preparada para fluxo de trabalho 
 image: "img/pc-julio.jpg"
   },
   {
+    title: "Recuperação de Site com Redirecionamento Hackeado",
+    date: "16/08/2025",
+    category: ["sites", "wordpress"],
+    text: `Recuperação de site WordPress comprometido, que apresentava redirecionamentos automáticos para páginas suspeitas — comportamento típico de infecção por malware.<br><br>
+Foi realizada uma análise completa nos arquivos e no banco de dados, identificando códigos maliciosos responsáveis pelos redirecionamentos. Todo o conteúdo comprometido foi removido, incluindo scripts injetados e possíveis brechas exploradas.<br><br>
+Após a limpeza, o site foi restaurado ao funcionamento normal, eliminando completamente os redirecionamentos indevidos. Também foram aplicadas medidas de segurança para evitar novas infecções, garantindo maior proteção e estabilidade.<br><br>
+O resultado foi a normalização total do site, com navegação segura e confiável para os usuários.`,
+image: "img/system-haked.jpg"
+  },
+  {
     title: "Remoção de Backdoors e Restauração de Site",
     date: "23/04/2026",
     category: ["sites", "wordpress"],
@@ -47,12 +57,6 @@ image: "img/system-haked.jpg"
     date: "19/04/2026",
     category: ["suporte"],
     text: "Correção de erros e manutenção em ambiente Windows."
-  },
-  {
-    title: "Site institucional moderno",
-    date: "18/04/2026",
-    category: ["wordpress"],
-    text: "Layout responsivo com foco em mobile-first."
   },
   {
     title: "SEO básico aplicado",
