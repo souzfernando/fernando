@@ -226,3 +226,28 @@ body {
   font-size: 18px;
   cursor: pointer;
 }
+
+
+.post {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.post-content {
+  max-height: 140px; /* controla o tamanho do card */
+  overflow: hidden;
+  position: relative;
+}
+
+/* efeito de fade no final do texto */
+.post-content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(transparent, #111); /* ajusta pra cor do teu fundo */
+}
