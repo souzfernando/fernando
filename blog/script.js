@@ -7,7 +7,7 @@ const posts = [
 O projeto foi desenvolvido para manter o portal da transparência da instituição de forma clara e estruturada.<br><br>
 O sistema também permite que a própria equipe realize o upload de arquivos em PDF diretamente no site.<br><br>
 Este projeto foi desenvolvido como trabalho voluntário.`,
-  link: "https://vilavicentinabrotas.com.br/"
+  link: "https://vilavicentinabrotas.com.br/",
   image: "img/site-vila.jpg"
 },
   {
