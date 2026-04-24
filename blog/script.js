@@ -11,7 +11,7 @@ Este projeto foi desenvolvido como trabalho voluntário.`,
   image: "img/site-vila.jpg"
 },
   {
-    title: "Site WordPress institucional",
+    title: "Workstation de Alta Performance para Edição e Streaming",
     date: "20/06/2022",
     category: ["manutencao"],
     text: `Montagem completa de computador voltado para edição de vídeos, tratamento de imagens e transmissões ao vivo. O cliente Júlio forneceu todas as peças, e o projeto foi executado com foco em organização interna, airflow eficiente e estabilidade para uso profissional contínuo.<br><br>
