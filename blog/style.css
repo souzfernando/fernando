@@ -131,6 +131,17 @@ body {
   background: #444;
 }
 
+.post-text {
+  color: #ccc;
+  line-height: 1.4;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* quantidade de linhas visíveis */
+  -webkit-box-orient: vertical;
+
+  overflow: hidden;
+}
+
 /* ================= PAGINAÇÃO ================= */
 .pagination {
   display: flex;
