@@ -21,10 +21,14 @@ O resultado final é uma máquina equilibrada, preparada para fluxo de trabalho 
 image: "img/pc-julio.jpg"
   },
   {
-    title: "Recuperação de site hackeado",
+    title: "Remoção de Backdoors e Restauração de Site",
     date: "23/04/2026",
     category: ["suporte"],
-    text: "Limpeza completa de malware e restauração do WordPress."
+    text: `Recuperação completa de site WordPress comprometido por invasão, apresentando arquivos maliciosos com backdoors, usuários administrativos não autorizados e alterações suspeitas no banco de dados.<br><br>
+Foi realizada uma varredura detalhada no sistema, com identificação e remoção de todos os arquivos infectados, exclusão de usuários indevidos e limpeza de tabelas comprometidas no banco de dados. Após a higienização, o site foi restaurado e colocado novamente em produção com funcionamento normal.<br><br>
+Para reforçar a segurança, foram aplicadas medidas preventivas e implementado o plugin de proteção Wordfence, garantindo monitoramento contínuo e maior resistência contra novas tentativas de invasão.<br><br>
+O resultado foi a recuperação total do ambiente, com estabilidade, integridade dos dados e aumento significativo no nível de segurança do site.`,
+image: "img/system-haked.jpg"
   },
   {
     title: "Landing page de alta conversão",
