@@ -2,7 +2,7 @@ const posts = [
 {
   title: "Site Vila Vicentina em Brotas",
   date: "05/02/2025",
-  category: ["sites", "wordpress"],
+  category: ["landing", "wordpress"],
   text: `Criação de site institucional com foco em conversão, SEO básico e organização de conteúdo.<br><br>
 O projeto foi desenvolvido para manter o portal da transparência da instituição de forma clara e estruturada.<br><br>
 O sistema também permite que a própria equipe realize o upload de arquivos em PDF diretamente no site.<br><br>
@@ -23,7 +23,7 @@ image: "img/pc-julio.jpg"
   {
     title: "Remoção de Backdoors e Restauração de Site",
     date: "23/04/2026",
-    category: ["suporte"],
+    category: ["sites", "wordpress"],
     text: `Recuperação completa de site WordPress comprometido por invasão, apresentando arquivos maliciosos com backdoors, usuários administrativos não autorizados e alterações suspeitas no banco de dados.<br><br>
 Foi realizada uma varredura detalhada no sistema, com identificação e remoção de todos os arquivos infectados, exclusão de usuários indevidos e limpeza de tabelas comprometidas no banco de dados. Após a higienização, o site foi restaurado e colocado novamente em produção com funcionamento normal.<br><br>
 Para reforçar a segurança, foram aplicadas medidas preventivas e implementado o plugin de proteção Wordfence, garantindo monitoramento contínuo e maior resistência contra novas tentativas de invasão.<br><br>
