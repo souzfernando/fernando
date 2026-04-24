@@ -14,7 +14,7 @@
   <meta property="og:image" content="logo.png">
   <meta property="og:type" content="website">
 
-    <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="icon" type="image/png" href="favicon.png" />
   <link rel="apple-touch-icon" href="favicon.png" />
 
   <link rel="stylesheet" href="style.css">
@@ -24,8 +24,8 @@
 
   <header class="header">
 
-    <a href="/" class="logo-link">
-      <img src="logo.png" alt="Fernando LABS" class="logo">
+    <a href="/" class="logo-btn">
+      <img src="logo.png" alt="Fernando LABS">
     </a>
     <h1>Fernando <strong>LABS</strong></h1>
     <p>Criação de Sites • WordPress • Landing Pages • Recuperação de Sites</p>
@@ -34,6 +34,17 @@
   <main class="container">
 
     <h2>Últimos Projetos</h2>
+    <div class="top-bar">
+      <h2>Últimos Projetos</h2>
+
+      <select id="categoryFilter">
+        <option value="all">Todas categorias</option>
+        <option value="wordpress">WordPress</option>
+        <option value="landing">Landing Pages</option>
+        <option value="seo">SEO</option>
+        <option value="suporte">Suporte</option>
+      </select>
+    </div>
     <div id="posts"></div>
 
     <div class="pagination" id="pagination"></div>
@@ -41,5 +52,13 @@
   </main>
 
   <script src="script.js"></script>
+
+  <div id="modal" class="modal">
+  <div class="modal-box">
+    <button class="close-btn" onclick="closeModal()">✕</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
 </body>
 </html>
