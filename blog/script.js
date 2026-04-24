@@ -10,6 +10,17 @@ Este projeto foi desenvolvido como trabalho voluntário.`,
   link: "https://vilavicentinabrotas.com.br/",
   image: "img/site-vila.jpg"
 },
+{
+  title: "Landing Page Bilíngue – Projeto Produtores de Floresta",
+  date: "20/04/2026",
+  category: ["landing", "wordpress"],
+  text: `Projeto desenvolvido como prestação de serviço terceirizado<br><br>Desenvolvimento de duas landing pages institucionais (português e inglês) para o Projeto Produtores de Floresta, iniciativa voltada à restauração de áreas degradadas nos biomas da Mata Atlântica e Cerrado.<br><br>
+O projeto contempla a recuperação inicial de 4.000 hectares, com o plantio de 6 milhões de árvores entre 2026 e 2030, com possibilidade de expansão até 2032. A iniciativa segue o padrão internacional VCS (Verified Carbon Standard), com foco em propriedades privadas, priorizando Reservas Legais e Áreas de Preservação Permanente.<br><br>
+As páginas foram estruturadas com foco em clareza institucional, navegação simples e adaptação para público internacional, garantindo consistência entre os idiomas e boa experiência em dispositivos móveis.<br><br>
+Projeto desenvolvido como prestação de serviço terceirizado.`,
+  link: "*",
+  image: "img/site-vila.jpg"
+},
   {
     title: "Workstation de Alta Performance para Edição e Streaming",
     date: "20/06/2022",
