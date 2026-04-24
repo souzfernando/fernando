@@ -177,6 +177,13 @@ body {
   width: 90%;
   max-width: 500px;
   position: relative;
+  color: #fff;
+
+  /* 👇 NOVO: limite de altura */
+  max-height: 80vh;
+
+  /* 👇 NOVO: scroll interno */
+  overflow-y: auto;
 }
 
 .modal-img {
@@ -196,6 +203,8 @@ body {
   cursor: pointer;
 }
 
+
+
 /* ================= MOBILE ================= */
 @media (max-width: 600px) {
   .post {
@@ -207,3 +216,4 @@ body {
     height: 180px;
   }
 }
+
