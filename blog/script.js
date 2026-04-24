@@ -3,11 +3,11 @@ const posts = [
   title: "Site Vila Vicentina em Brotas",
   date: "05/02/2025",
   category: "sites",
-  text: `Criação de site institucional com foco em conversão, SEO básico e organização de conteúdo.<b><b>
-O projeto foi desenvolvido para manter o portal da transparência da instituição de forma clara e estruturada.<b><b>
-O sistema também permite que a própria equipe realize o upload de arquivos em PDF diretamente no site.<b><b>
-Este projeto foi desenvolvido como trabalho voluntário.<b><b>
-<a href="https://vilavicentinabrotas.com.br/" target="_blank" class="btn-link">Conheça</a>`,
+  text: `Criação de site institucional com foco em conversão, SEO básico e organização de conteúdo.<br><br>
+O projeto foi desenvolvido para manter o portal da transparência da instituição de forma clara e estruturada.<br><br>
+O sistema também permite que a própria equipe realize o upload de arquivos em PDF diretamente no site.<br><br>
+Este projeto foi desenvolvido como trabalho voluntário.`,
+  link: "https://vilavicentinabrotas.com.br/"
   image: "img/site-vila.jpg"
 },
   {
@@ -190,7 +190,6 @@ function changePage(page) {
    MODAL
 ========================= */
 function openModal(index) {
-  currentPostIndex = index;
   const post = posts[index];
 
   const modal = document.getElementById("modal");
@@ -201,6 +200,12 @@ function openModal(index) {
     <h2>${post.title}</h2>
     ${post.date ? `<small>${post.date}</small>` : ""}
     <p>${post.text}</p>
+
+    ${post.link ? `
+      <a href="${post.link}" target="_blank" class="btn-link">
+        Ver projeto
+      </a>
+    ` : ""}
   `;
 
   modal.classList.add("active");
