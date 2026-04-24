@@ -2,7 +2,7 @@ const posts = [
 {
   title: "Site Vila Vicentina em Brotas",
   date: "05/02/2025",
-  category: "sites",
+  category: "sites", "wordpress",
   text: `Criação de site institucional com foco em conversão, SEO básico e organização de conteúdo.<br><br>
 O projeto foi desenvolvido para manter o portal da transparência da instituição de forma clara e estruturada.<br><br>
 O sistema também permite que a própria equipe realize o upload de arquivos em PDF diretamente no site.<br><br>
@@ -116,7 +116,7 @@ function renderPosts() {
 
   const filtered = selectedCategory === "all"
     ? sorted
-    : sorted.filter(p => p.category === selectedCategory);
+    : sorted.filter(p => p.category.includes(selectedCategory));
 
   const start = (currentPage - 1) * postsPerPage;
   const end = start + postsPerPage;
