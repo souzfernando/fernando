@@ -37,6 +37,20 @@ Após o envio, os dados são direcionados diretamente para o WhatsApp da empresa
   image: "img/site-everton.jpg"
 },
 
+{
+  title: "Customizações e Desenvolvimento de Plugin para Automação de Pacotes em Pousada",
+  date: "02/09/2025",
+  category: ["landing", "wordpress"],
+  text: `<p class="note">⚠️ Participação no projeto como desenvolvedor, em parceria com a agência BWM</p>Atuação no desenvolvimento e aprimoramento de funcionalidades em site WordPress para uma pousada, com foco em usabilidade e automação de processos internos.<br><br>
+Foram realizadas customizações no front-end, incluindo ajustes de layout e melhorias na exibição de conteúdos do blog, com implementação de funcionalidade “ver mais”, inexistente nativamente no sistema utilizado.
+<br><br>
+Além disso, foi desenvolvido um plugin personalizado para gerenciamento de pacotes de hospedagem, permitindo o cadastro rápido pela equipe e automatizando a exibição dos conteúdos no site. O sistema também realiza o controle de validade dos pacotes, removendo automaticamente aqueles expirados, reduzindo trabalho manual e evitando informações desatualizadas.<br><br>
+  O resultado foi uma solução mais eficiente para a equipe, com ganho de produtividade e melhor organização das ofertas apresentadas aos usuários.
+`,
+  link: "https://evertonguincho.com.br/",
+  image: "img/site-everton.jpg"
+},
+
   {
     title: "Workstation de Alta Performance para Edição e Streaming",
     date: "20/06/2022",
