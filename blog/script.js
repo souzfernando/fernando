@@ -47,7 +47,7 @@ Foram realizadas customizações no front-end, incluindo ajustes de layout e mel
 Além disso, foi desenvolvido um plugin personalizado para gerenciamento de pacotes de hospedagem, permitindo o cadastro rápido pela equipe e automatizando a exibição dos conteúdos no site. O sistema também realiza o controle de validade dos pacotes, removendo automaticamente aqueles expirados, reduzindo trabalho manual e evitando informações desatualizadas.<br><br>
   O resultado foi uma solução mais eficiente para a equipe, com ganho de produtividade e melhor organização das ofertas apresentadas aos usuários.
 `,
-  link: "https://evertonguincho.com.br/",
+  link: "https://pousadadaluasp.com.br/",
   image: "img/site-everton.jpg"
 },
 
