@@ -1,6 +1,6 @@
 const posts = [
 {
-  title: "Site Vila Vicentina em Brotas",
+  title: "Site Institucional com Portal da Transparência e Upload de Documentos",
   date: "05/02/2025",
   category: ["landing", "wordpress"],
   text: `Criação de site institucional com foco em conversão, SEO básico e organização de conteúdo.<br><br>
@@ -11,7 +11,7 @@ Este projeto foi desenvolvido como trabalho voluntário.`,
   image: "img/site-vila.jpg"
 },
 {
-  title: "Landing Page Bilíngue – Projeto Produtores de Floresta",
+  title: "Desenvolvimento de Landing Page (PT/EN) – Projeto Ambiental",
   date: "20/04/2026",
   category: ["landing", "wordpress"],
   text: `<p class="note">⚠️ Execução técnica como serviço terceirizado</p><br>Desenvolvimento de duas landing pages institucionais (português e inglês) para o Projeto Produtores de Floresta, iniciativa voltada à restauração de áreas degradadas nos biomas da Mata Atlântica e Cerrado.<br><br>
@@ -22,6 +22,21 @@ Também foram aplicadas customizações em HTML e CSS para adaptação visual e 
   link: "https://produtoresdefloresta.com.br/",
   image: "img/site-floresta.jpg"
 },
+
+{
+  title: "Landing Page para Empresa de Guincho com Atendimento Automatizado",
+  date: "25/04/2026",
+  category: ["landing", "wordpress"],
+  text: `Desenvolvimento de landing page para empresa de guincho com foco em captação rápida de chamados e conversão de clientes. O projeto foi estruturado para facilitar o contato imediato, especialmente em situações de urgência.<br><br>
+A página conta com formulário inteligente de atendimento, permitindo o preenchimento automático de endereço via CEP ou captura de localização em tempo real através do dispositivo do usuário.
+<br><br>
+Após o envio, os dados são direcionados diretamente para o WhatsApp da empresa, agilizando o atendimento e reduzindo o tempo de resposta.<br><br>
+  O resultado é uma solução prática, otimizada para dispositivos móveis e voltada para geração de leads e atendimento imediato.
+`,
+  link: "https://evertonguincho.com.br/",
+  image: "img/site-floresta.jpg"
+},
+
   {
     title: "Workstation de Alta Performance para Edição e Streaming",
     date: "20/06/2022",
@@ -88,12 +103,12 @@ image: "img/system-haked.jpg"
     category: ["suporte"],
     text: "Integração de envio funcional via email."
   },
-  {
+  /* {
     title: "Projeto landing ads",
     date: "14/04/2026",
     category: ["landing"],
     text: "Página otimizada para campanhas do Instagram Ads."
-  }
+  }*/
 ];
 
 const postsPerPage = 3;
