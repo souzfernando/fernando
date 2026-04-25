@@ -48,7 +48,7 @@ Além disso, foi desenvolvido um plugin personalizado para gerenciamento de paco
   O resultado foi uma solução mais eficiente para a equipe, com ganho de produtividade e melhor organização das ofertas apresentadas aos usuários.
 `,
   link: "https://pousadadaluasp.com.br/",
-  image: "img/site-everton.jpg"
+  image: "img/pousda-da-lua-sp.jpg"
 },
 
   {
