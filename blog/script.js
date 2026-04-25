@@ -34,7 +34,7 @@ Após o envio, os dados são direcionados diretamente para o WhatsApp da empresa
   O resultado é uma solução prática, otimizada para dispositivos móveis e voltada para geração de leads e atendimento imediato.
 `,
   link: "https://evertonguincho.com.br/",
-  image: "img/site-floresta.jpg"
+  image: "img/site-everton.jpg"
 },
 
   {
@@ -67,13 +67,8 @@ Para reforçar a segurança, foram aplicadas medidas preventivas e implementado 
 O resultado foi a recuperação total do ambiente, com estabilidade, integridade dos dados e aumento significativo no nível de segurança do site.`,
 image: "img/system-haked.jpg"
   },
-  {
-    title: "Landing page de alta conversão",
-    date: "21/04/2026",
-    category: ["landing"],
-    text: "Página otimizada para campanha de tráfego pago."
-  },
-  {
+
+  /*{
     title: "Otimização de velocidade",
     date: "20/04/2026",
     category: ["wordpress"],
@@ -103,7 +98,13 @@ image: "img/system-haked.jpg"
     category: ["suporte"],
     text: "Integração de envio funcional via email."
   },
-  /* {
+    {
+    title: "Landing page de alta conversão",
+    date: "21/04/2026",
+    category: ["landing"],
+    text: "Página otimizada para campanha de tráfego pago."
+  },
+ {
     title: "Projeto landing ads",
     date: "14/04/2026",
     category: ["landing"],
