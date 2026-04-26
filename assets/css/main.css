@@ -1084,3 +1084,7 @@ input, select, textarea {
     width: 120px; /* ajusta como quiser */
     margin-bottom: 15px;
 }
+
+.logo {
+  filter: drop-shadow(0 0 20px rgba(123, 80, 170, 0.7));
+}
