@@ -226,7 +226,7 @@ body {
 }
 
 .sort-btn:hover {
-  background: #222;
+  background: rgba(123, 80, 170, 1);
 }
 
 .btn-link {
