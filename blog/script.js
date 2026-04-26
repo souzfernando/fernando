@@ -296,5 +296,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // 👇 aqui
+  document.getElementById("modal").addEventListener("click", (e) => {
+    if (e.target.id === "modal") {
+      closeModal();
+    }
+  });
+
   renderPosts();
 });
