@@ -128,7 +128,7 @@ body {
 }
 
 .see-more:hover {
-  background: #444;
+  background: rgba(123, 80, 170, 1);
 }
 
 .post-text {
