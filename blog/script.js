@@ -304,3 +304,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderPosts();
 });
+
+window.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" || e.key === "Esc") {
+    closeModal();
+  }
+});
