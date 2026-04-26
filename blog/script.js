@@ -24,7 +24,7 @@ Também foram aplicadas customizações em HTML e CSS para adaptação visual e 
 },
 
 {
-  title: "Landing Pages para Empresa de Guincho com Atendimento Automatizado",
+  title: "Landing Page para Empresa de Guincho com Atendimento Automatizado",
   date: "25/04/2026",
   category: ["landing", "wordpress"],
   text: `Desenvolvimento de landing page para empresa de guincho com foco em captação rápida de chamados e conversão de clientes. O projeto foi estruturado para facilitar o contato imediato, especialmente em situações de urgência.<br><br>
@@ -296,12 +296,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 👇 aqui
   document.getElementById("modal").addEventListener("click", (e) => {
-    if (e.target.id === "modal") {
-      closeModal();
-    }
-  });
+  if (e.target === e.currentTarget) {
+    closeModal();
+  }
+});
 
   renderPosts();
 });
