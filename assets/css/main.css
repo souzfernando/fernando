@@ -692,7 +692,7 @@ a:hover {
 
 #header nav a:hover:before {
   background-color: rgba(123, 80, 170, 0.3);
-  color: #2e0a4f;
+  color: #fff;
   border-color: #7b50aa;
 }/*Cor icone*/
 
