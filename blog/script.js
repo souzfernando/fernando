@@ -52,16 +52,6 @@ Além disso, foi desenvolvido um plugin personalizado para gerenciamento de paco
 },
 
   {
-    title: "Workstation de Alta Performance para Edição e Streaming",
-    date: "20/06/2022",
-    category: ["manutencao"],
-    text: `Montagem completa de computador voltado para edição de vídeos, tratamento de imagens e transmissões ao vivo. O cliente Júlio forneceu todas as peças, e o projeto foi executado com foco em organização interna, airflow eficiente e estabilidade para uso profissional contínuo.<br><br>
-A configuração conta com processador Intel i7-12700F, aliado a um water cooler PCYes Sangue Frio 2 para controle térmico adequado. O sistema possui 32GB de memória XPG, armazenamento rápido em SSD M.2 de 512GB XPG e fonte Gigabyte 750W modular, garantindo energia estável e montagem limpa com melhor gerenciamento de cabos.<br><br>
-A placa-mãe TUF Gaming oferece robustez e durabilidade, enquanto a placa de vídeo Gigabyte GTX 1050 atende às demandas de edição e uso gráfico. Tudo isso foi montado no gabinete Cooler Master Q300L, priorizando ventilação e praticidade.<br><br>
-O resultado final é uma máquina equilibrada, preparada para fluxo de trabalho intenso, com bom desempenho em multitarefas e confiabilidade para uso diário.`,
-image: "img/pc-julio.jpg"
-  },
-  {
     title: "Recuperação de Site com Redirecionamento Hackeado",
     date: "16/08/2025",
     category: ["sites", "wordpress"],
