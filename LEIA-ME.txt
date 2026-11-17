@@ -1,7 +1,10 @@
-Fernando LABS — Home V1
+Fernando LABS — Home V2
 
-1. Extraia o ZIP em uma pasta de testes do seu servidor ou abra index.html no navegador.
-2. O arquivo atriv.html é uma página temporária para o botão ATRIV funcionar; será substituída pela página do projeto.
-3. Contatos estão em index.html.
-4. Imagem do ambiente é um recorte da arte aprovada; textos e botões são HTML de verdade.
-5. Antes de publicar, faça backup do site atual.
+Arquivos: index.html, 404.html, atriv.html (temporário), assets/.
+
+A imagem de fundo foi recomposta a partir da arte aprovada, retirando textos e logotipos incorporados. Os textos e links agora são HTML reais.
+
+Teste: abra index.html no navegador.
+Publicação: envie os arquivos e a pasta assets para a raiz do site, mantendo os caminhos.
+404.html: para servidores Apache, adicione ErrorDocument 404 /404.html ao .htaccess existente (sem apagar outras regras).
+atriv.html é temporária até construirmos o case do ATRIV Conecta.
