@@ -1,0 +1,7 @@
+Fernando LABS — Home V1
+
+1. Extraia o ZIP em uma pasta de testes do seu servidor ou abra index.html no navegador.
+2. O arquivo atriv.html é uma página temporária para o botão ATRIV funcionar; será substituída pela página do projeto.
+3. Contatos estão em index.html.
+4. Imagem do ambiente é um recorte da arte aprovada; textos e botões são HTML de verdade.
+5. Antes de publicar, faça backup do site atual.
