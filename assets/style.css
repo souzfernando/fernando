@@ -40,3 +40,207 @@
 }
 
 .brand h1 span{color:#ffcc00}.underline{width:105px;height:3px;background:#ffcc00;margin:18px auto 21px}.brand p{font-size:clamp(15px,1.5vw,22px);margin:0;white-space:nowrap}.brand p b{color:#ffcc00;margin:0 7px}.experience{display:inline-block;position:relative;margin:28px auto 27px;padding:10px 37px;border:2px solid #ffcc00;transform:skewX(-12deg);font-size:clamp(17px,1.9vw,27px);white-space:nowrap}.experience strong{color:#ffcc00}.experience>*{transform:skewX(12deg)}.project{display:flex;align-items:center;gap:24px;margin:0 auto 27px;max-width:660px;text-align:left;padding:10px 0}.project-logo{flex:0 0 205px;display:flex;align-items:center;justify-content:center;border-right:1px solid #858585;padding-right:20px}.project-logo img{width:100%;max-height:135px;object-fit:contain;background:#fff;border-radius:8px}.project-copy{flex:1;min-width:0}.eyebrow{font-size:12px;font-weight:700;letter-spacing:3px;color:#ffcc00}.project h2{font-size:25px;margin:7px 0}.project p{font-size:15px;line-height:1.5;margin:0 0 13px;color:#eee}.project-link{display:inline-flex;align-items:center;gap:12px;background:#ffcc00;color:#080808;text-decoration:none;font-weight:800;font-size:14px;border-radius:10px;padding:13px 17px;transition:transform .2s,background .2s}.project-link:hover{transform:translateY(-2px);background:#ffe166}.social{display:flex;align-items:center;justify-content:center;gap:21px;margin:5px auto 22px}.social a{display:grid;place-items:center;width:65px;height:65px;border:2px solid #ffcc00;border-radius:50%;color:#ffcc00;box-shadow:0 0 16px #ffcc004d;transition:transform .2s,background .2s}.social a:hover{transform:translateY(-3px);background:#ffcc001c}.social svg{width:30px;height:30px}.divider{height:29px;width:1px;background:#777}footer{font-size:12px;color:#bbb}@media(max-width:1100px){.content{margin-left:-14vw;width:min(650px,100%)}.scene{background-position:57% center}}@media(max-width:760px){.home{padding:35px 20px;min-height:100svh;align-items:center}.scene{background-position:65% center;opacity:.55}.scene:after{background:rgba(0,0,0,.58)}.content{margin-left:0}.brand-symbol{width:72px;height:90px}.brand h1{font-size:clamp(35px,8vw,55px);letter-spacing:-1.5px}.brand p{font-size:14px;white-space:normal;line-height:1.7}.experience{margin:23px auto 17px;padding:10px 15px;font-size:17px}.project{flex-direction:column;gap:12px;text-align:center;padding:10px 0}.project-logo{border-right:0;padding:0;flex:auto;width:155px}.project-logo img{max-height:105px}.project h2{font-size:22px}.project p{font-size:14px}.social a{width:55px;height:55px}.social svg{width:26px;height:26px}}@media(max-width:370px){.brand h1{font-size:33px}.brand p b{margin:0 2px}.experience{font-size:15px}.project-link{font-size:13px}}
+
+
+/* ==========================================
+   FERNANDO LABS — PROJETO ATRIV
+   ========================================== */
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    width: min(100%, 650px);
+    margin: 34px auto 0;
+    text-align: left;
+}
+
+/* Card do logotipo */
+
+.project-logo {
+    flex: 0 0 145px;
+    width: 145px;
+    height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+
+    background: linear-gradient(
+        145deg,
+        rgba(35,35,35,.96),
+        rgba(12,12,12,.98)
+    );
+
+    border: 1px solid rgba(255,208,0,.38);
+    border-radius: 16px;
+
+    box-shadow:
+        0 14px 35px rgba(0,0,0,.4),
+        0 0 25px rgba(255,208,0,.09),
+        inset 0 1px 0 rgba(255,255,255,.08);
+
+    overflow: hidden;
+    transition:
+        transform .3s ease,
+        border-color .3s ease,
+        box-shadow .3s ease;
+}
+
+.project-logo:hover {
+    transform: translateY(-4px);
+    border-color: #FFD000;
+    box-shadow:
+        0 18px 40px rgba(0,0,0,.5),
+        0 0 35px rgba(255,208,0,.18);
+}
+
+.project-logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+}
+
+/* Conteúdo */
+
+.project-copy {
+    flex: 1;
+    min-width: 0;
+}
+
+.project-copy .eyebrow {
+    display: block;
+    color: #FFD000;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .18em;
+    margin-bottom: 8px;
+}
+
+.project-copy h2 {
+    color: #FFFFFF;
+    font-size: clamp(23px,2.5vw,30px);
+    font-weight: 800;
+    line-height: 1.15;
+    margin: 0 0 10px;
+}
+
+.project-copy p {
+    color: #E0E0E0;
+    font-size: 13px;
+    line-height: 1.65;
+    margin: 0 0 14px;
+}
+
+.project-copy p strong {
+    color: #FFFFFF;
+    font-weight: 750;
+}
+
+/* Etiquetas técnicas */
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 17px;
+}
+
+.project-tags span {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 9px;
+    border-radius: 6px;
+
+    color: #F7D65A;
+    background: rgba(255,208,0,.07);
+    border: 1px solid rgba(255,208,0,.24);
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .015em;
+}
+
+/* Botão */
+
+.project-copy .project-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    min-height: 42px;
+    padding: 11px 17px;
+
+    background: #FFD000;
+    color: #080808;
+    border: 1px solid #FFD000;
+    border-radius: 10px;
+
+    font-size: 12px;
+    font-weight: 850;
+    text-decoration: none;
+
+    box-shadow: 0 8px 24px rgba(255,208,0,.12);
+    transition:
+        transform .2s ease,
+        background .2s ease,
+        box-shadow .2s ease;
+}
+
+.project-copy .project-link:hover {
+    background: #FFE05A;
+    color: #080808;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(255,208,0,.2);
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    .project {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin-top: 27px;
+        text-align: center;
+    }
+
+    .project-logo {
+        flex: 0 0 auto;
+        width: 112px;
+        height: 112px;
+        padding: 12px;
+    }
+
+    .project-copy h2 {
+        font-size: 24px;
+    }
+
+    .project-copy p {
+        font-size: 12px;
+    }
+
+    .project-tags {
+        justify-content: center;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project-logo,
+    .project-copy .project-link {
+        transition: none;
+    }
+
+    .project-logo:hover,
+    .project-copy .project-link:hover {
+        transform: none;
+    }
+}
